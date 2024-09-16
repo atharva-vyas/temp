@@ -25,3 +25,9 @@ def sqrt(x):
         raise ValueError("Square root of negative number is not defined in the real number system.")
     else:
         return math.sqrt(x)
+
+# Change made by Faisal Ahmad:
+
+def power(x, y):
+    return x**y
+
