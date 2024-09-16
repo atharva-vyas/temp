@@ -1,3 +1,6 @@
+# T
+import math
+
 def add(x, y):
     """Addition"""
     return x + y
@@ -15,3 +18,10 @@ def divide(x, y):
     if y == 0:
         raise ValueError("Cannot divide by zero!")
     return x / y
+
+
+def sqrt(x):
+    if x < 0:
+        raise ValueError("Square root of negative number is not defined in the real number system.")
+    else:
+        return math.sqrt(x)
